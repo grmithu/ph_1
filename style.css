@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =======  Header parts========= */
+
+.header{
+    background-size: 80%;
+    
+    padding:0px 145px;
+    
+    margin-top: 100px;
+    display: flex;
+    width: 820;
+    
+}
+.header-color{
+    color: #e75c75;
+}
+.header-title{
+    width: 50%;
+    display: block;
+    padding-top: 50px;
+    
+
+}
+.header-h1{
+    font-size: 50px;
+    font-weight: 400px;
+    border-left: 5px solid #33ff00;
+    padding-left: 10px
+  
+}
+.header-img{
+  width: 372px;
+    height: 490px;
+    margin-left: 80px;
+    padding-bottom: 20px;
+    margin-top: -68px;
+    
+}
+.pera{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-align: justify;
+
+}
+.pera-mission{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header-button{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px
+}
+/* =======  Mission Parts  ========= */
+.mission-h2{
+}
+
+h2{
+    font-size: 30px;
+    text-align:left;
+    padding:10px 10px;
+    
+
+}
+.mission-span{
+    color: #e75c75;
+}
+.mission-h2{
+    font-size: 40px;
+    text-align:center;
+    padding: 40px;
+ 
+    
+    
+}
+.mission-main{
+    padding: 0px 20px;
+}
+.mission{
+    display: flex;
+    height: 365px;
+    padding: 10px 20px;
+    
+}
+.mision-1{
+    width: 25%;
+    margin-left: 10.5%;
+    margin-right: 2%;
+    padding: 10px;
+    background-color: #E6E6E6;
+    border-radius: 20px
+}
+.vision{
+    width: 25%;
+    padding: 10px;
+        
+    
+    background-color: #fae9e9;
+    border-radius: 20px
+}
+.goals{
+    
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 10.5%;
+  
+    background-color: #F5F1C0;
+    border-radius: 20px
+
+   
+}
+.mission-img{
+    
+    height: 100px;
+    width: 100px;
+    display: block;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 15px;
+
+}
+
+/* =======  project parts ========= */
+
+.skill{
+margin-left: 40px;
+display: flex;
+padding: 20px;
+margin-top: 45px;
+
+overflow: hidden;
+}
+.skill-img{
+    width: 40%;
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+    background-position: 0px 80px;
+}
+
+.skill-img-resize {
+    height: 425px;
+    width: auto;
+    margin-left: 100px;
+}
+.skill-title{
+    font-size: 30px;
+    margin-right: 100px;
+    margin-left: 180px;
+    padding-top: 55px;
+    margin-bottom: 100px;
+    
+}
+
+/* =======  Customer parts  ========= */
+.global{
+    width: 40%;
+    display: flex;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 100pxpx;
+}
+.global-img{
+    width: 10%;
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    background-position: 290px 290px;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+
+.global-img-resize {
+    height: 425px;
+    width: auto;
+    margin-right: 100px;
+}
+.global-title{
+    width: 50%;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-left: 50px;
+    padding-top: 55px;
+    padding-right:50px
+    padding-left: 0px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    
+}
+
+/* =======  Blog Parts ========= */
+
+.blog-bottom{
+
+    text-align: center;
+    font-weight: 400px;
+    font-size: 30px;
+    
+
+}
+.blg-bottom-1{
+    color: gray;
+}
+.blog-bottom-2{
+
+    text-align: center;
+    font-weight: 400px;
+    font-size: 30px;
+    color: #ffad5a;
+    
+
+}
+.flexibility-display{
+    display: flex;
+}
+.blog-main{
+    padding-left: 5px;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.blog-1{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid #BFBFBF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    
+    
+
+}
+.blog-2{
+    padding: 10px;
+    border: 1px solid #BFBFBF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    
+}
+.blog-3{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #BFBFBF;
+    box-shadow: azure;
+    border-radius: 5%;
+    
+}
+.blg-img-resize{
+    height: 240px;
+    width: 400px;
+    padding:10px 0px;
+}
+.blg-h2{
+    font-size: 25px;
+    text-align:left;
+    padding:10px 0px;
+}
+.blg-more{
+    text-decoration: none;
+    margin:18px 0px;
+    padding: 20px 0px;
+
+}
+.arro-sign{
+    height: 20px;
+    width: 20px;
+    padding-top: 6px;
+    margin-top: 7px;
+    text-anchor:;
+}
+
+/* =======  Footer Parts ========= */
+
+.footer-bg h2{
+    
+    text-align: center;
+   
+
+}
+.footer-title{
+    color: white;
+font-family: 'Moon Dance';
+font-size: 40px;
+font-weight: bold;
+    
+}
+.footer-bg{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color:blanchedalmond;
+    margin-bottom: 5px;
+    padding: 50px;
+}
+.footer-heading{
+    color: #d73a3a;
+    font-weight: bold;
+
+}
+.footer-pera{
+    font-family: 'Poppins', sans-serif;
+    color: #cdc8c8;
+    padding-top: 25px;
+}
+.small-app{
+    margin-bottom: 13px;
+    margin-left: 145px;
+}
